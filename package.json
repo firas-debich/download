@@ -1,0 +1,27 @@
+{
+  "name": "download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firas-debich/download.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firas-debich/download/issues"
+  },
+  "homepage": "https://github.com/firas-debich/download#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "nodemon": "^2.0.16",
+    "ytdl-core": "^4.11.0"
+  }
+}
